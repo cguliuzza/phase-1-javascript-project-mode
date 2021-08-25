@@ -1,0 +1,27 @@
+
+
+div {
+    box-sizing: inherit; 
+    display: inline-block; 
+    padding: 0;
+    margin: 0;
+    width: auto;}
+
+
+img  { 
+        max-width:50px;
+       }
+    
+       .m argin-top{
+        box-sizing: inherit; 
+        margin-top: 1.6rem; 
+        text-align: center;
+    }
+    
+
+.btn {
+    -webkit-tap-highlight-color: transparent; 
+    background-color: #00bd9a; 
+    border-radius: 2px; box-shadow: rgba(0, 0, 0, 0.14) 0px 2px 2px 0px, rgba(0, 0, 0, 0.12) 0px 1px 5px 0px, rgba(0, 0, 0, 0.2) 0px 3px 1px -2px; box-sizing: inherit; color: white; cursor: pointer; display: inline-block; height: 42px; letter-spacing: 0.5px; line-height: 42px; padding: 0px 3rem; pointer-events: all; position: relative; text-decoration-line: none; text-transform: uppercase; vertical-align: middle; width: 537px;">Hungry?     Here are some options <img src="css/food.png" alt="bell pepper with topping" width="50" 
+    height="60"
+}
