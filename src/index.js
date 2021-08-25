@@ -1,5 +1,5 @@
 const apiURL ="https://traderjoeapi.jackgisel.com/api/recipes"
-
+//const apiURL= ""
 document.addEventListener('DOMContentLoaded', (event) => {
     console.log("Dom Loaded")
 
@@ -12,6 +12,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
       const recipeBlock = document.querySelector('#recipe-block')
         
       allRecipesArray.forEach((recipeObject) => {
+        
           const recipeTitles = document.querySelector('#title')
 
           // const recipeTagNames = document.querySelector('#tags')
@@ -28,7 +29,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
           starImg.src= "css/pinkStar.jpg";
           starImg.classList= ["favoriteStar"]
           oneTitleDiv.append(brNewLine,starImg, recipeTitleP);
-          recipeBlock.append(oneTitleDiv);
+          //recipeBlock.append(oneTitleDiv);
           const titleDiv= document.querySelector('.margin-top')
       
   
@@ -41,24 +42,45 @@ document.addEventListener('DOMContentLoaded', (event) => {
    
         //wrong object need drop down 
 
-        oneTitleDiv.addEventListener('click',() => {
+        // oneTitleDiv.addEventListener('click',() => {
         
-        const recipeSectionDiv = document.querySelector('#id')
-        const recipeId = document.querySelector('#one-recipe-block')
-        recipeId.textContent = recipeObject.id
-        recipeBlock.append(recipeId)
+        // const recipeSectionDiv = document.querySelector('#id')
+        // const recipeId = document.querySelector('#one-recipe-block')
+        // recipeId.textContent = recipeObject.id
+        // recipeBlock.append(recipeId)
+        // const recipeServes = document.querySelector('#serves')
+        // recipeServes.textContent = recipeObject.serves
+        // recipeBlock.append(recipeServes)
+        // console.log(recipeObject)
+        // getRecipeIngredients(recipeObject)
+        // }
+        
 
       // const recipeTagIds = document.querySelector('#tag-ids')
        //console.log(recipeTitleP);
        //recipeBlock.append(recipeTagIds)
 
-       const recipeServes = document.querySelector('#serves')
-       recipeServes.textContent = recipeObject.serves
-       recipeBlock.append(recipeServes)
+    //    <div class="recipeInfo">
+    //    <div id="detailed-info">
+    //      <p id="title">Recipe Title: </p>
+    //      <p id="prep-time">Prep Time: </p>
+    //      <p id="ingredients">Ingredients: </p>
+    //      <p id="directions">Directions: </p>
+    //      <p id="cooking-time">Cooking Time: </p>
+    //      <p id="tags">Tags: </p>
+    //      <p id="id">Id: </p>
+    //      <p id="tag-ids">TagIds: </p>
+    //      <p id="serves">Serves: </p>
+    //    </div>
 
-    }
-        
-        )
+
+
+
+
+
+      
+
+
      
         
       
@@ -67,7 +89,6 @@ document.addEventListener('DOMContentLoaded', (event) => {
     })
 
 
-    getRecipeIngredients(recipeObject)
 })
 
 
@@ -105,7 +126,7 @@ recipeDirections.textContent = recipeObject.directions
 recipeBlock.append(recipeDirections)
 
 const recipeCookingTime = document.querySelector('#cooking-time')
-recipeCookingTime.textContent = recipeObject.cookingTime
+recipeCookingTime.textContent = recipeObject.cookingTimegit
 recipeBlock.append(recipeCookingTime)
 }
 
