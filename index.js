@@ -9,8 +9,9 @@ fetch('https://traderjoeapi.jackgisel.com/api/recipes')
 .then(allRecipesArray => {
     const recipeBlock = document.querySelector('#recipe-block')
     
-    
     allRecipesArray.forEach((recipeObject) => {
+        console.log(recipeObject)
+        
         const recipeTitles = document.querySelector('#title')
         recipeTitles.textContent = recipeObject.title
         recipeBlock.append(recipeTitles)
@@ -55,5 +56,3 @@ fetch('https://traderjoeapi.jackgisel.com/api/recipes')
     })
 
 })
-
-

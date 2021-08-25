@@ -1,6 +1,6 @@
 #recipe-block {
     border: transparent;
-    border-color: firebrick;
+    border-color: rgb(184, 184, 184);
     padding: 50px;
     box-shadow: 4px 16px 25px 10px rgba(78, 78, 78, 0.2);
     transition: 0.3s;
@@ -14,6 +14,17 @@
     box-shadow: 0 8px 16px 0 rgba(23, 102, 122, 0.918);
     cursor: pointer;
   }
+
+#recipe-block-section {
+  border: transparent;
+  border-color: rgb(184, 184, 184);
+  padding: 50px;
+  box-shadow: 4px 16px 25px 10px rgba(78, 78, 78, 0.2);
+  transition: 0.3s;
+  text-align: center;
+  width: 600px;
+  height: 60px;
+}
 
 body {
     text-align: center;
