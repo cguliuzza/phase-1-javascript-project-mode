@@ -1,28 +1,22 @@
 document.addEventListener('DOMContentLoaded', (event) => {
     console.log('DOM fully loaded and parsed');
-accessIngredientsDirections();
-
-});
-
-
-
-//Will need access to a buttonDiv parameter
-function accessIngredientsDirections(){
-    const bodyElement = document.body;
-    const titleDiv= document.querySelector('.btn')
-    //console.log(titleDiv)
-    const favoriteDiv = document.createElement('div');
-    const favoriteImg = document.createElement('img');
-    favoriteDiv.id - "starContainer"
-    //const starWhite = "css/pinkStar.jpg";
-    const selectedStar ="css/blueStar.jpg"; 
-    selectedStar.classList = ["favorite"]
-    //favoriteImg.src = starWhite;
-    favoriteImg.src =selectedStar;
-    favoriteDiv.id = "favoriteStar";
-    favoriteDiv.classList = ["favorite"]
-    favoriteDiv.append(favoriteImg);
-    titleDiv.append(favoriteDiv);
+    const recipeObject = {"title":  "working"};
+    const recipeBlock = document.querySelector('#recipe-block')
+    const starImg = document.createElement('img');
+    const recipeTitleP= document.createElement('p');
+    recipeTitleP.innerText = recipeObject.title;
+    starImg.src= "css/pinkStar.jpg";
+    starImg.classList= ["favoriteStar"]
+    recipeBlock.append(starImg, recipeTitleP)
+    recipeBlock.appendChild(recipeTitleP)
+    const titleDiv= document.querySelector('.margin-top')
+    console.log(recipeBlock)= recipeObject[title];
+  
 
 
-}
+})
+
+// favoriteImg.src =selectedStar;
+// favoriteDiv.classList = ["favoriteStar"]
+// favoriteDiv.append(favoriteImg);
+// recipeBlock.append(favoriteDiv);
