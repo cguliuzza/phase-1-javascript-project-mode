@@ -1,7 +1,7 @@
 //dataForJSON='https://traderjoeapi.jackgisel.com/api/recipes'    //fetches 483 recipes when working
 
 const dropDownElement = document.querySelector('.recipeType');  //uses ropDownElement.addEventListener to filter meals based on 'change' event
-const dataForJSON; //add url, db.json file location, server address, etc.
+const dataForJSON = null; //add url, db.json file location, server address, etc.
 const recipeBlock;
 opensMeals();
 
@@ -37,7 +37,7 @@ fetch(dataForJSON)
         
         starImg.addEventListener('click',(mealTypeArray, starImg) =>{
             const elementHolder = mealTypeArray[0];
-            starImg.src= "css/blueStar.jpg"
+            starImg.src= "css/blueStar.jpg" //star switches color when star selected
 
             //move starred to top
             for (let i = 0; i < mealTypeArray.length; i++){
@@ -52,12 +52,12 @@ fetch(dataForJSON)
         console.log(titleDiv);
  //expands one listed recipe in oneTitleDiv  to lowerPage
         oneTitleDiv.addEventListener('click',() => { (e) =>{
-//Tina please provide, lower leftIngredientsDiv, rightDirectionsDiv, largeRecipeContainer.  I'll do the bottom part.
+//Tina please provide, leftIngredientsDiv, rightDirectionsDiv, largeRecipeContainer.  I'll do the bottom part.
 
-//passess the one Array to be sorted into three other Divs.  
+//passess the one Array to be sorted into three other divs.  
 //suggested HTML ids to match js 
-//lower leftIngredientsDiv
-//lower rightDirectionsDiv
+//leftIngredientsDiv
+//rightDirectionsDiv
 //the largeRecipeContainer that the above two fit into   e.g. largeRecipeDiv.append(leftIngredientDiv,rightDirectionsDiv)
     
 //we just need the space that the listing take 
@@ -73,7 +73,6 @@ fetch(dataForJSON)
 })
 })
 }
-
   
 dropDownElement.addEventListener('change', (e) => {
     const recipeType  = e.target.value;
@@ -125,18 +124,6 @@ dropDownElement.addEventListener('change', (e) => {
 
 
 
-
-// favoriteImg.src =selectedStar;
-// favoriteDiv.classList = ["favoriteStar"]
-// favoriteDiv.append(favoriteImg);
-// recipeBlock.append(favoriteDiv);
-//switch color when star selected
-
-
-
-
-
-
 function getRecipeIngredientsDirctions(allRecipesArray)
 {    
 
@@ -150,7 +137,6 @@ recipeTitles.textContent = allRecipesArray.title;
 largeRecipeContainer.append(recipeTitles); //please bold and center in css
 
 
-
 const recipePrepTime = document.querySelector('#prep-time');
 recipePrepTime.textContent = allRecipesArray.prepTime;
 
@@ -160,7 +146,6 @@ recipeServes.textContent = allRecipesArray.serves;
 const recipeIngredients = document.querySelector('#ingredients')
 recipeIngredients.textContent = allRecipesArray.ingredients;
 leftIngredientsDiv.append(recipeIngredients,recipeServes);
-
 
 
 const recipeDirections = document.querySelector('#directions');
