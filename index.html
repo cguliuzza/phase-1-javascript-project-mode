@@ -1,52 +1,52 @@
-<!DOCTYPE html>
 <html>
 <head>
-  <link rel="stylesheet" href="style.css">
-  <script defer src="index.js"></script>
-  <title>Trader Joe’s Recipe Organizer</title>
+  <link rel="stylesheet" href= "css/style.css">
+  <script defer src="src/index.js"></script>
+  <title>Trader Joe’s Recipe Organizer Copy
+  </title>
 </head>
 
 <body>
   <h1>Trader Joe's<br>
     Recipe Organizer</h1>
-  
-  <form>
-    <label for="meals">What type of meals would you like?</label>
+
+
+    <div class= "core"> 
+      <label for="meals">What type of meal would you like?</label>
+        <select class="mealOption" name="mealOption">
+          <option value="">Select One</option>
+          <option value="quick">Quick</option>
+          <option value="gluten-free">Gluten Free</option>
+          <option value="snack">Snack</option>
+        </select>
+      </label>
+      
+      <div class="result"></div>
+
+    </div>
+
+
+  <!-- <form>
+
     <br><br>
-    <select name="meals" id="meals">
+    <select name="meals" id="recipeType">
       <option value="quick">Quick Meal</option>
       <option value="gluten-free">Gluten Free Ingredients</option>
       <option value="snack">Snack</option>
     </select>
     <input type="submit" value="Submit">
   </form>
-  
+
+
+   -->
   <div id="recipe-block">
-      <div id="recipe-block-section">
-        <div id="id-ingredients" class="detail-section">
-          <p id="ingredients">Ingredients: </p>
-        </div>
-        <div id="id-directions" class="detail-section">
-          <p id="directions">Directions: </p>
-        </div>
-      </div>
+    <!-- show recipes tiles here -->
   </div>
 
-  <div class="recipeInfo">
-    <div id="detailed-info">
-      <p id="title">Recipe Title: </p>
-      <p id="prep-time">Prep Time: </p>
-      <p id="cooking-time">Cooking Time: </p>
-      <p id="tags">Tags: </p>
-      <p id="id">Id: </p>
-      <p id="tag-ids">TagIds: </p>
-      <p id="serves">Serves: </p>
-      <img
-        id="image"
-        src=""
-        alt="Recipe's Name"
-      /><!-- display recipe image -->
-    </div>
+  <div id="one-recipe-block">
+    <!-- show recipes tiles here -->
+  </div>
+
 
 </body>
 
