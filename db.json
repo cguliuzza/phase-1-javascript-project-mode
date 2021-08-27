@@ -1,6 +1,7 @@
 {
   "recipes": [
     { 
+      "id": 1,
       "title": "Everything Cream Cheese Crispbreads",
       "tags": [
         "Snack", 
@@ -15,6 +16,7 @@
       "directions": "Generously slather a crispbread with cream cheese. Sprinkle liberally with seasoning blend and top with fresh dill. \nEnjoy!"
     },
     {
+      "id": 2,
       "title": "Citrus Garlic Chicken Tacos",
       "tags": "Quick Meal",
       "ingredients": [
@@ -27,6 +29,7 @@
       "directions": "Remove outer packaging of Cuban Style Citrus Garlic Bowl and pierce film. Microwave on high 4 to 5 minutes or until heated through. Stir and set aside.\nFill tortillas with warmed Cuban Style Citrus Garlic Bowl. Garnish with salsa, sliced jalapeños, and cilantro.\nEnjoy!"
     },
     {
+      "id": 3,
       "title": "Chimichurri Soup",
       "tags": "Quick Meal",
       "ingredients": [
@@ -38,6 +41,7 @@
       "directions": "In a large pot combine soup, rice, and corn.\nStirring periodically, heat on low for about 10 min or until heated through.\nServe warm, topped with cheese if desired. \nEnjoy!"
     },
     {
+      "id": 4,
       "title": "Quinoa Veggie Burgers with Avocado Tzatziki",
       "tags": "Quick Meal",
       "ingredients": [
@@ -50,6 +54,7 @@
       "directions": "Preheat oven to 450°F. Remove burgers from packaging and place on an ungreased baking sheet. Bake 5 minutes or until browned. Carefully flip and continue to bake an additional 5 minutes, or until heated through and well browned. Remove from oven and let cool slightly.\nPlace burger patty on bottom of hamburger bun. Top with a generous swipe of Avocado Tzatziki dip, followed by sliced red onion and cilantro. Top with hamburger bun and serve immediately."
     },
     {
+      "id": 5,
       "title": "Pop Goes the Elote!",
       "tags": "Snack",
       "ingredients": [
@@ -61,6 +66,7 @@
       "directions": "In a 3-quart pan, pour in oil to cover the bottom.  Add 2-3 kernels of corn to pan, cover and heat. When these kernels pop, add the remaining popping corn, then cover and shake pan over medium heat until popping stops. \nRemove from heat. Pour melted butter and sprinkle seasoning over popcorn. Mix until thoroughly covered.\nLet popcorn cool slightly and enjoy!"
     },
     {
+      "id": 6,
       "title": "Protein Box",
       "tags": "Snack",
       "ingredients": [
@@ -74,6 +80,7 @@
       "directions": "You will need food storage containers for ingredients and daily meal prep, and 5 small sauce containers for peanut butter.\nPrep components: Trim ends of celery and slice into thirds. Slice cheese into 1-inch cubes. Measure 2 tablespoons peanut butter into each of the small sauce containers. Halve eggs. Refrigerate prepped ingredients in separate food storage containers until needed.\nAssemble protein box: Each morning, place the following in your box: two egg halves, 6-7 carrots, 5-6 celery sticks, 5-6 cubes of cheese, 2 tablespoons of peanut butter, and one apple."
     },
     {
+      "id": 7,
       "title": "Loaded Totchos",
       "tags": "Snack",
       "ingredients": [
@@ -86,6 +93,7 @@
       "directions": "Spread tots on a large, rimmed baking pan and cook according to package directions. Remove pan from oven and set on heat-safe work surface.\nUsing tongs or a spatula, pile half of the tots in the center of the pan. Sprinkle with half of the cheese, then pile remaining tots on top. Scatter black beans, jackfruit carnitas, remaining cheese and jalapeños atop the tots. \nReturn pan to oven and cook 5-10 minutes more to melt the cheese. Remove from oven and let cool slightly. Garnish with cilantro and sour cream, and enjoy!"
     },
     {
+      "id": 8,
       "title": "Fusilli Garden Pasta",
       "tags": "Gluten Free",
       "ingredients": [
@@ -101,6 +109,7 @@
       "directions": "Bring a large pot of water to boil, adding salt, if desired. Add 2 cups of pasta and cook uncovered, stirring occasionally for about 7-10 minutes or until al dente. Do not overcook. Remove pasta and drain thoroughly. Set aside.\nHeat a large pan over medium heat. Add 1 1/2 tablespoons of clarified butter and heat another minute or so until it starts to shimmer. Add  1 1/2 cups of sliced asparagus, stirring until all sides are coated with clarified butter. Let cook without stirring for 2-3 more minutes until asparagus edges begin to turn golden. Add 1 1/2 cups of grape tomatoes and continue stirring until tomatoes are heated through, about 2-3 minutes. Add as much cooked pasta as desired to the pan, then mix in 1/2 cup fresh sliced basil, the juice of 1/2 a lemon and 1/2 cup of pine nuts. Keep stirring until ingredients are well incorporated, about 1-2 minutes. At this point, add up to 1 tablespoon more clarified butter if desired. Stir. Divide the pasta among two plates and top with shaved cheese blend. Enjoy!"
     },
     {
+      "id": 9,
       "title": "Cocoa Crunch Milkshake",
       "tags": "Gluten Free", 
       "ingredients": [
@@ -113,6 +122,7 @@
       "directions": "Coat the inside of two tall glasses with a few drizzles of chocolate syrup. Place in the freezer to chill.\nPlace cereal and milk in a bowl; refrigerate for 15 minutes to infuse. Add cereal and milk to a blender pitcher, along with 4 heaping scoops of ice cream. Blend until ingredients are fully incorporated.\nRemove glasses from freezer and divide milkshake evenly among glasses. Garnish with chipped cream, chocolate syrup and cereal. Enjoy immediately.Coat the inside of two tall glasses with a few drizzles of chocolate syrup. Place in the freezer to chill.Place cereal and milk in a bowl; refrigerate for 15 minutes to infuse. Add cereal and milk to a blender pitcher, along with 4 heaping scoops of ice cream. Blend until ingredients are fully incorporated.Remove glasses from freezer and divide milkshake evenly among glasses. Garnish with chipped cream, chocolate syrup and cereal. Enjoy immediately."
     },
     {
+      "id": 10,
       "title": "Baked Apples",
       "tags": "Gluten Free",
       "ingredients": [
@@ -128,6 +138,7 @@
       "directions": "Preheat oven to 350°F. Core apples using an apple corer or sharp paring knife, making sure all of the hard core and seeds are scooped out. Set aside.\nIn a medium-sized mixing bowl, combine dates, pecans, brown sugar, oats, pumpkin pie spice, and softened butter. Stuff cored apples with the date mixture, making sure to completely fill the hole left from the core.\nPlace stuffed apples in a 9 x 13-inch baking dish and pour spiced cider into the bottom of the dish. Cover with aluminum foil and bake on center rack of oven for 30 minutes. Remove foil and continue to bake for an additional 10-20 minutes, or until apples are easily pierced with a fork.\nRemove from oven and let cool slightly. Serve warm as-is, or alongside a scoop of Trader Joe’s Super Premium French Vanilla Ice Cream."
     },
     {
+      "id": 11,
       "title": "Baked Parmesan Chicken Tenders",
       "tags": "Gluten Free",
       "ingredients": [

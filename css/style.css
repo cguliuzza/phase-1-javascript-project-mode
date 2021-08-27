@@ -1,3 +1,62 @@
+/* JAE CSS 
+
+recipeTitleAfterClick {
+  display: flex;
+  opacity: .8;
+  height: 10rem;
+  padding: 3rem;
+}
+
+
+#recipe-block {
+  box-sizing: inherit; 
+
+display: inline-block; 
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  border-bottom: double;
+}
+
+
+img.favoriteStar  { 
+height: 30px;
+margin-right:  5px;
+float: left;
+
+     }
+
+     p{
+      float: left;
+
+     }
+
+
+
+
+     .margin-top{
+      box-sizing: inherit; 
+      margin-top: 1.6rem; 
+      text-align: center;
+  }
+  
+
+.btn {
+  -webkit-tap-highlight-color: transparent; 
+  border-radius: 2px; 
+}
+
+.nextLine{
+width: 100%;
+display: inline-block; 
+float: left;
+}
+*/
+
+
+
+/* TINA CSS */
+
 #recipe-block {
   border: transparent;
   border-color: rgb(184, 184, 184);
@@ -6,7 +65,7 @@
   transition: 0.3s;
   margin: auto;
   text-align: left;
-  width: 650px;
+  width: 800px;
   height: 50px;
 }
 
@@ -23,7 +82,7 @@
   transition: 0.3s;
   margin: auto;
   text-align: left;
-  width: 650px;
+  width: 800px;
   max-height: fit-content;
 }
 
