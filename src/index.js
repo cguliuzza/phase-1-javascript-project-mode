@@ -6,13 +6,12 @@ fetch('http://localhost:3000/recipes')
     allRecipesArray.forEach((recipeObject) => {
         
         const recipeTitles = document.querySelector('#title')
-        recipeTitles.textContent = recipeObject.title
+        console.log(recipeTitles.textContent = recipeObject.title)
         recipeBlock.append(recipeTitles)
 
         const recipeIngredients = document.querySelector('.ingredients-list')
 
         const ingredientsItem = document.createElement('li')
-        // recipeIngredients.append(ingredientsItem.innerText)
         console.log(ingredientsItem, recipeObject.ingredients)
 
         recipeObject.ingredients.forEach(item => {
