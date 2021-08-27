@@ -1,0 +1,37 @@
+
+        const recipeIngredients = document.querySelector('#ingredients')
+        recipeIngredients.textContent = recipeObject.ingredients
+        recipeBlock.append(recipeIngredients)
+
+        const recipeDirections = document.querySelector('#directions')
+        recipeDirections.textContent = recipeObject.directions
+        recipeBlock.append(recipeDirections)
+
+        const recipeTagNames = document.querySelector('#tags')
+        // recipeBlock.append(recipeTagNames)
+    })
+
+
+
+        allRecipesArray.forEach((recipeObject) => {
+        
+           
+        
+    })
+
+
+
+    <p id="title"><strong>Recipe: </strong></p>
+  <p id="title"><strong>Recipe: </strong></p>
+  </div>
+
+  <div id="id-ingredients" class="column">
+      <p id="ingredients"><span><strong>Ingredients: </strong></span>
+        <br><br>
+        EXAMPLE TEXT HERE.</p>
+    </div>
+    <div id="id-directions" class="column">
+      <p id="directions"><span><strong>Directions: </strong></span>
+        <br><br>
+        EXAMPLE TEXT HERE.</p>
+    </div>

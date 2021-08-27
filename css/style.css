@@ -1,23 +1,47 @@
 /* JAE CSS 
 
-recipeTitleAfterClick {
-  display: flex;
-  opacity: .8;
-  height: 10rem;
-  padding: 3rem;
+
+
+
+     }
+
+
+
+
+   
+
+.btn {
+  -webkit-tap-highlight-color: transparent; 
+  border-radius: 2px; 
 }
 
 
-#recipe-block {
-  box-sizing: inherit; 
+*/
 
-display: inline-block; 
-  padding: 0;
-  margin: 0;
+.middle {
+  left: 50%;
   width: 100%;
-  border-bottom: double;
 }
 
+
+.margin-top{
+  box-sizing: inherit; 
+  margin-top: 1.6rem; 
+  text-align: center;
+}
+
+
+
+
+p{
+  float: left;
+}
+
+  .nextLine {
+    width: 100%;
+    display: inline-block; 
+    float: left;
+    }
 
 img.favoriteStar  { 
 height: 30px;
@@ -26,38 +50,21 @@ float: left;
 
      }
 
-     p{
-      float: left;
-
-     }
-
-
-
-
-     .margin-top{
-      box-sizing: inherit; 
-      margin-top: 1.6rem; 
-      text-align: center;
-  }
   
 
-.btn {
-  -webkit-tap-highlight-color: transparent; 
-  border-radius: 2px; 
-}
+/*
 
-.nextLine{
-width: 100%;
-display: inline-block; 
-float: left;
-}
-*/
-
-
-
-/* TINA CSS */
 
 #recipe-block {
+  box-sizing: inherit; 
+  display: inline-block; 
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  border-bottom: double;
+}
+
+ #recipe-block {
   border: transparent;
   border-color: rgb(184, 184, 184);
   padding: 15px;
@@ -67,14 +74,15 @@ float: left;
   text-align: left;
   width: 800px;
   height: 50px;
-}
+} 
+*/
 
 #recipe-block:hover {
   box-shadow: 0 8px 16px 0 rgba(23, 102, 122, 0.918);
   cursor: pointer;
 }
 
-#recipe-block-section {
+#recipe-block-section #one-recipe-block {
   border: transparent;
   border-color: rgb(184, 184, 184);
   padding: 15px;
@@ -91,7 +99,7 @@ float: left;
 }
   
 .column {
-  flex: 50%;
+  width: 50%;
   max-height: fit-content;
 }
 
