@@ -4,22 +4,30 @@ fetch('http://localhost:3000/recipes')
     const recipeBlock = document.querySelector('#recipe-block')
     
     allRecipesArray.forEach((recipeObject) => {
-        console.log(recipeObject)
         
         const recipeTitles = document.querySelector('#title')
         recipeTitles.textContent = recipeObject.title
         recipeBlock.append(recipeTitles)
 
-        const recipeIngredients = document.querySelector('#ingredients')
-        recipeIngredients.textContent = recipeObject.ingredients
-        recipeBlock.append(recipeIngredients)
+        const recipeIngredients = document.querySelector('.ingredients-list')
+
+        const ingredientsItem = document.createElement('li')
+        // recipeIngredients.append(ingredientsItem.innerText)
+        console.log(ingredientsItem, recipeObject.ingredients)
+
+        recipeObject.ingredients.forEach(item => {
+            console.log(item)
+            ingredientsItem.innerText = item
+            recipeIngredients.append(ingredientsItem)
+        })
 
         const recipeDirections = document.querySelector('#directions')
-        recipeDirections.textContent = recipeObject.directions
-        recipeBlock.append(recipeDirections)
+
+        const directionsTextP = document.createElement('p')
+        directionsTextP.innerText = recipeObject.directions
+        recipeDirections.append(directionsTextP.innerText)
 
         const recipeTagNames = document.querySelector('#tags')
-        // recipeBlock.append(recipeTagNames)
     })
 
 })

@@ -93,6 +93,8 @@ float: left;
 .column {
   flex: 50%;
   max-height: fit-content;
+  margin-left: 2%;
+  margin-right: 2%;
 }
 
 body {
